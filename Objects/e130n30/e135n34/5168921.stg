@@ -1,0 +1,15 @@
+OBJECT_SHARED Models/Airport/ndb.ac 135.345181 34.495056 -1.41 180
+OBJECT_SHARED Models/Airport/ndb.ac 135.443628 34.491311 58.62 180
+OBJECT_SHARED Models/Airport/ils.xml 135.256681 34.434378 -0.01 129.25
+OBJECT_SHARED Models/Communications/vordme_1.xml 135.251783 34.430086 -0.01 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 135.256747 34.434306 -0.01 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 135.448331 34.491947 59.09 180
+OBJECT_SHARED Models/Airport/marker.ac 135.261039 34.438692 0 180
+OBJECT_SHARED Models/Airport/marker.ac 135.266439 34.442394 -0.29 180
+OBJECT_SHARED Models/Airport/localizer.xml 135.261611 34.439072 0 140.88
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 135.3204806 34.4552728 -0.71 279.21
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 135.3204811 34.4462233 -0.35 40.2
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 135.3181003 34.4553034 -0.8 124.27
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 135.3181421 34.4462596 -0.43 220.27
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 135.318 34.42 0 334.65
+OBJECT_STATIC rinku-gate-tower-building.ac 135.3 34.411111 0 320
