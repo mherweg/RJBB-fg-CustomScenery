@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>RJBB-wingshuttle2.ac</path>
+
+ <nasal>
+  <load>
+    loop_id = 0;
+
+    setprop("/models/static/rjbb_skytrain2_x", 1500.0);
+    setprop("/models/static/rjbb_skytrain2_richt", 'vor');
+
+
+    train_pos = func
+               {
+               x = getprop("/models/static/rjbb_skytrain2_x");
+               if (getprop("/models/static/rjbb_skytrain2_richt") == 'vor')
+                 {
+                 x = x + 1;
+                 }
+                 else
+                 {
+                 x = x - 1;
+                 }
+               if (x > 1500)
+                 {
+                 x = 1500.0;
+                 setprop("/models/static/rjbb_skytrain2_richt", 'rueck');
+                 }
+               if (1 > x)
+                 {
+                 x = 1.0;
+                 setprop("/models/static/rjbb_skytrain2_richt", 'vor');
+                 }
+              
+               setprop("/models/static/rjbb_skytrain2_x", x);
+              
+               }
+
+    loop = func(id) 
+           {
+           train_pos();
+           id == loop_id or return;
+           settimer(func { loop(id) }, 0.05);
+           }
+
+    loop(loop_id += 1);
+   </load>
+
+   <unload>loop_id += 1</unload>
+ </nasal>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>8000</max-m>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>wingshuttle</object-name>
+  <property>/models/static/rjbb_skytrain2_x</property>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ 
+
+</PropertyList>

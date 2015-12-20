@@ -67,9 +67,9 @@
                 </condition>
 
                  <emission>
-                        <red>0.4</red>
-                        <green>0.4</green>
-                        <blue>0.6</blue>
+                        <red>0.3</red>
+                        <green>0.5</green>
+                        <blue>1.0</blue>
                 </emission>
 
         </animation>
