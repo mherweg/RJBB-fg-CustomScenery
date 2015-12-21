@@ -8,18 +8,17 @@
   <load>
     loop_id = 0;
 
-    setprop("/models/static/rjbb_skytrain1_x", 1200);
+    setprop("/models/static/rjbb_skytrain1_x", 1);
     setprop("/models/static/rjbb_skytrain1_richt", 'vor');
-
+    srand(); 
 
 	var timer = maketimer(1, func(){ 
-					print('train 1 departure');
 					setprop("/models/static/rjbb_skytrain1_richt", 'vor');
 					state = 'vor';
 					});
 
 	var timer2 = maketimer(1, func(){ 
-					print('train 1 going back');
+					#print('train 1 going back');
 					setprop("/models/static/rjbb_skytrain1_richt", 'rueck');
 					state = 'rueck';
 					});
@@ -36,11 +35,13 @@
                  {
                  x = x - 1;
                  }
+                 
                if (x > 1500)
                  {
-                
                  timer2.singleShot = 1;
-                 timer2.restart(6);
+                 fuzzy = rand() * 10;
+                 #print(fuzzy);
+                 timer2.restart(6+fuzzy);
                  x = 1500;
                  setprop("/models/static/rjbb_skytrain1_x", x);
                  setprop("/models/static/rjbb_skytrain1_richt", 'warte');
@@ -49,7 +50,6 @@
                  
                if (1 > x)
                  {
-                
                  timer.singleShot = 1;
                  timer.restart(6);
                  x = 1;
@@ -60,10 +60,7 @@
               
                 if ((x == 300) and (state == 'vor'))
                  {
-                 var timer = maketimer(1, func(){ 
-					print('train 1 south midway stop, going north');
-					setprop("/models/static/rjbb_skytrain1_richt", 'vor');
-					});
+               
                  timer.singleShot = 1;
                  timer.restart(6);
                  x = 301;
@@ -74,50 +71,37 @@
                  
                if ((x == 300) and (state == 'rueck'))
                  {
-                 var timer = maketimer(1, func(){ 
-					print('train 1 south midway stop, going south');
-					setprop("/models/static/rjbb_skytrain1_richt", 'rueck');
-					});
-                 timer.singleShot = 1;
-                 timer.restart(6);
+                 
+                 timer2.singleShot = 1;
+                 timer2.restart(6);
                  x = 299;
                  setprop("/models/static/rjbb_skytrain1_x", x);
                  setprop("/models/static/rjbb_skytrain1_richt", 'warte');
                  state = 'warte';
                  }
               
-               if ((x == 1100) and (state == 'vor'))
+               if ((x == 1200) and (state == 'vor'))
                  {
-                 var timer = maketimer(1, func(){ 
-					print('train 1 north midway stop, going north');
-					setprop("/models/static/rjbb_skytrain1_richt", 'vor');
-					});
+               
                  timer.singleShot = 1;
                  timer.restart(6);
-                 x = 1101;
+                 x = 1201;
                  setprop("/models/static/rjbb_skytrain1_x", x);
                  setprop("/models/static/rjbb_skytrain1_richt", 'warte');
                  state = 'warte';
                  }
                  
-               if ((x == 1100) and (state == 'rueck'))
+               if ((x == 1200) and (state == 'rueck'))
                  {
-                 var timer = maketimer(1, func(){ 
-					print('train 1 north midway stop, going south');
-					setprop("/models/static/rjbb_skytrain1_richt", 'rueck');
-					});
-                 timer.singleShot = 1;
-                 timer.restart(6);
-                 x = 1099;
+                 
+                 timer2.singleShot = 1;
+                 timer2.restart(6);
+                 x = 1199;
                  setprop("/models/static/rjbb_skytrain1_x", x);
                  setprop("/models/static/rjbb_skytrain1_richt", 'warte');
                  state = 'warte';
                  }
-              
-              
-              
-              
-              
+             
                setprop("/models/static/rjbb_skytrain1_x", x);
               
                }

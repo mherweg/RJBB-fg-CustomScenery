@@ -8,32 +8,98 @@
   <load>
     loop_id = 0;
 
-    setprop("/models/static/rjbb_skytrain3_x", 700.0);
-    setprop("/models/static/rjbb_skytrain3_richt", 'vor');
+    setprop("/models/static/rjbb_skytrain3_x", 700);
+    setprop("/models/static/rjbb_skytrain3_richt", 'rueck');
 
+	var timer = maketimer(1, func(){ 
+					#print('train 1 departure');
+					setprop("/models/static/rjbb_skytrain3_richt", 'vor');
+					state = 'vor';
+					});
+
+	var timer2 = maketimer(1, func(){ 
+					#print('train 1 going back');
+					setprop("/models/static/rjbb_skytrain3_richt", 'rueck');
+					state = 'rueck';
+					});
 
     train_pos = func
                {
                x = getprop("/models/static/rjbb_skytrain3_x");
-               if (getprop("/models/static/rjbb_skytrain3_richt") == 'vor')
+               state = getprop("/models/static/rjbb_skytrain3_richt");
+               if (state == 'vor')
                  {
                  x = x + 1;
                  }
-                 else
+               if (state == 'rueck') 
                  {
                  x = x - 1;
                  }
+                 
                if (x > 1500)
                  {
-                 x = 1500.0;
-                 setprop("/models/static/rjbb_skytrain3_richt", 'rueck');
+                 timer2.singleShot = 1;
+                 timer2.restart(6);
+                 x = 1500;
+                 setprop("/models/static/rjbb_skytrain3_x", x);
+                 setprop("/models/static/rjbb_skytrain3_richt", 'warte');
+                 state = 'warte';
                  }
+                 
                if (1 > x)
                  {
-                 x = 1.0;
-                 setprop("/models/static/rjbb_skytrain3_richt", 'vor');
+                 timer.singleShot = 1;
+                 timer.restart(6);
+                 x = 1;
+                 setprop("/models/static/rjbb_skytrain3_x", x);
+                 setprop("/models/static/rjbb_skytrain3_richt", 'warte');
+                 state = 'warte';
                  }
               
+                if ((x == 300) and (state == 'vor'))
+                 {
+               
+                 timer.singleShot = 1;
+                 timer.restart(6);
+                 x = 301;
+                 setprop("/models/static/rjbb_skytrain3_x", x);
+                 setprop("/models/static/rjbb_skytrain3_richt", 'warte');
+                 state = 'warte';
+                 }
+                 
+               if ((x == 300) and (state == 'rueck'))
+                 {
+                 
+                 timer2.singleShot = 1;
+                 timer2.restart(6);
+                 x = 299;
+                 setprop("/models/static/rjbb_skytrain3_x", x);
+                 setprop("/models/static/rjbb_skytrain3_richt", 'warte');
+                 state = 'warte';
+                 }
+              
+               if ((x == 1200) and (state == 'vor'))
+                 {
+               
+                 timer.singleShot = 1;
+                 timer.restart(6);
+                 x = 1201;
+                 setprop("/models/static/rjbb_skytrain3_x", x);
+                 setprop("/models/static/rjbb_skytrain3_richt", 'warte');
+                 state = 'warte';
+                 }
+                 
+               if ((x == 1200) and (state == 'rueck'))
+                 {
+                 
+                 timer2.singleShot = 1;
+                 timer2.restart(6);
+                 x = 1199;
+                 setprop("/models/static/rjbb_skytrain3_x", x);
+                 setprop("/models/static/rjbb_skytrain3_richt", 'warte');
+                 state = 'warte';
+                 }
+             
                setprop("/models/static/rjbb_skytrain3_x", x);
               
                }
@@ -46,6 +112,10 @@
            }
 
     loop(loop_id += 1);
+    
+    
+    
+    
    </load>
 
    <unload>loop_id += 1</unload>
