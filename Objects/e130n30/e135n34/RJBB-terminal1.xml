@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>RJBB-terminal1.ac</path>
+	
+<!--  textranslate and night emission  -->
+<animation>
+    <type>textranslate</type> 
+    <object-name>edge-wall</object-name>
+    <object-name>round-windows</object-name>
+    <object-name>big-glasswall</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x>0</x> 
+      <y>1</y> 
+    </axis> 
+</animation>
+
+<animation>
+	<type>material</type>
+    <object-name>edge-wall</object-name>
+    <object-name>round-windows</object-name>
+    <object-name>big-glasswall</object-name> 
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.6</blue>
+</emission>
+</animation>
+
+
+</PropertyList>
