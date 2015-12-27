@@ -13,3 +13,5 @@ OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 135.3181003 34.4553034 -0.8 124.2
 OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 135.3181421 34.4462596 -0.43 220.27
 OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 135.318 34.42 0 334.65
 OBJECT_STATIC rinku-gate-tower-building.ac 135.3 34.411111 0 320
+
+
