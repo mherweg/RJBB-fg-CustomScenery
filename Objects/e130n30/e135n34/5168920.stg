@@ -59,3 +59,34 @@ OBJECT_SHARED Models/lib/cone.ac 135.22565632 34.42533391 0.9681 36.5 0.0 -0.0
 OBJECT_SHARED Models/lib/cone.ac 135.22566625 34.42532362 0.9681 36.5 0.0 -0.0
 OBJECT_SHARED Models/lib/stack_of_cones.ac 135.22546365 34.42561523 0.9697 36.5 0.0 -0.0
 OBJECT_SHARED Models/lib/stack_of_cones.ac 135.22547992 34.42559574 0.9700 36.5 0.0 -0.0
+
+
+# cargo apron / remote stands lamp posts and blast deflectors
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22441535 34.41758646 0.543 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/eddf_blast_deflector_low.xml 135.22375699 34.4182040 0.5936 216.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22388341 34.41803022 0.582 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22349220 34.41846934 0.619 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22409717 34.41997125 0.747 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22612612 34.42050594 0.814 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22828234 34.42186992 0.939 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22934550 34.42245570 0.987 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.22977584 34.42273528 1.006 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23041795 34.42316711 1.038 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23107184 34.42359831 1.068 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23172852 34.42403674 1.096 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23226635 34.42437654 1.118 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23289230 34.42480154 1.143 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23353816 34.42524238 1.166 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23409054 34.42561000 1.186 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23349341 34.42622528 1.193 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23303775 34.42668914 1.193 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23251137 34.42723403 1.188 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23199955 34.42776207 1.177 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23149772 34.42826743 1.163 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23415696 34.42926511 1.234 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23488687 34.42848727 1.250 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23531566 34.42804275 1.256 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23563892 34.42773021 1.256 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23619488 34.42714940 1.255 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23676541 34.42656531 1.247 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/eddf_blast_deflector_generic.xml 135.22611470 34.4855988 0.6574 308.0 0.0 -0.0
