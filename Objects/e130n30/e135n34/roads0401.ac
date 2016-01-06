@@ -6,7 +6,7 @@ name "Blender_export__roads0401.ac"
 kids 1
 OBJECT poly
 name "e130n30_e135n34_5168920roads0401.002"
-texture "roads.png"
+texture "tex/roads.png"
 texrep 1 1
 numvert 2898
 269.6189880 12.5979996 -268.8850098
