@@ -7,7 +7,7 @@ kids 1
 OBJECT poly
 name "Cube"
 crease 35.0
-texture "HS-06R24L.png"
+texture "HS-24L06R.png"
 texrep 1 1
 numvert 8
 0.0000000 0.0000000 0.0000004

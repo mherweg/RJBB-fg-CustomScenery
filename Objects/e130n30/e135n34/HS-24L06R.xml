@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <PropertyList>
 
-  <path>HS-06R24L.ac</path>
+  <path>HS-24L06R.ac</path>
   <animation>
     <object-name>Cube</object-name>
     <enable-hot type="bool">false</enable-hot>
