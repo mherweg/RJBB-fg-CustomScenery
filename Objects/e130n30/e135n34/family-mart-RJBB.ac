@@ -88,7 +88,7 @@ OBJECT poly
 name "Sign"
 loc -11.2585564 5.8432269 3.9475765
 crease 35.0
-texture "RJBB_family_mart.png"
+texture "family-mart-RJBB-sign.png"
 texrep 1 1
 numvert 72
 -0.1832651 -0.3871989 0.1045530
