@@ -7,6 +7,8 @@ OBJECT poly
 name "FamilyMart"
 loc -0.0177005 2.5027344 -5.9842415
 crease 35.0
+texture "RJBB_family_mart.png"
+texrep 1 1
 numvert 16
 -11.5000000 -2.5000000 1.0000000
 -11.5000000 2.5000000 1.0000000
