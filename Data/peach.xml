@@ -8,7 +8,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA801P</registration>
@@ -22,7 +22,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA802P</registration>
@@ -36,7 +36,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA803P</registration>
@@ -50,7 +50,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA804P</registration>
@@ -64,7 +64,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA805P</registration>
@@ -78,7 +78,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA806P</registration>
@@ -92,7 +92,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA807P</registration>
@@ -106,7 +106,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA808P</registration>
@@ -120,7 +120,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA809P</registration>
@@ -134,7 +134,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA810P</registration>
@@ -148,7 +148,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA811P</registration>
@@ -162,7 +162,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA812P</registration>
@@ -176,7 +176,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA813P</registration>
@@ -190,7 +190,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA814P</registration>
@@ -204,7 +204,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA815P</registration>
@@ -218,7 +218,7 @@
     <required-aircraft>A320APJ</required-aircraft>
     <actype>A320-200</actype>
     <offset>0</offset>
-    <radius>39</radius>
+    <radius>17</radius>
     <flighttype>gate</flighttype>
     <performance-class>jet_transport</performance-class>
     <registration>JA816P</registration>
