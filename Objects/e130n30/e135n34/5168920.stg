@@ -58,6 +58,15 @@ OBJECT_STATIC RJBB-DHL-warehouse.ac 135.22504318 34.421280440.8374 39.0 0.0 -0.0
 
 #Kansai Inflight Catering
 OBJECT_STATIC KIC_hangar.ac 135.23109761 34.42848689 1.1542 270.0 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23119252 34.42829143 1.1526 219.5 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23123425 34.42832423 1.1545 220.0 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23128304 34.42836990 1.1556 0.0 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23137823 34.42843537 1.1580 0.0 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23145058 34.42847278 1.1597 216.2 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23150127 34.42850400 1.1612 216.7 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23154212 34.42853050 1.1628 218.8 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23230835 34.42708934 1.1779 220.0 0.0 -0.0
+
 
 OBJECT_SHARED Models/Boundaries/CrowdBarrier.xml 135.22534151 34.42566423 0.9666 39.0 -0.4 --0.8
 OBJECT_SHARED Models/Boundaries/CrowdBarrier.xml 135.22532483 34.42568354 0.9662 39.5 0.0 -0.0
@@ -145,3 +154,11 @@ OBJECT_SHARED Models/Airport/egkk_light_mast.xml 135.23676541 34.42656531 0.247 
 
 #FuelBridge
 OBJECT_STATIC RJBB_fuelbridge.xml 135.23545860 34.41951148 0.0080 0.0 0.0 
+
+
+#Shared Models -- Apron Equipment
+
+#Shared Models -- Static Aircraft
+OBJECT_SHARED Models/Aircraft/B747cargo.xml 135.23183739 34.42804510 1.1765 220.0 0.0 -0.0
+
+#Shared Models -- General
