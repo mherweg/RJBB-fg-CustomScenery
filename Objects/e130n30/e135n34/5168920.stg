@@ -58,14 +58,27 @@ OBJECT_STATIC RJBB-DHL-warehouse.ac 135.22504318 34.421280440.8374 39.0 0.0 -0.0
 
 #Kansai Inflight Catering
 OBJECT_STATIC KIC_hangar.ac 135.23109761 34.42848689 1.1542 270.0 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23119252 34.42829143 1.1526 219.5 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23123425 34.42832423 1.1545 220.0 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23128304 34.42836990 1.1556 0.0 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23137823 34.42843537 1.1580 0.0 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23145058 34.42847278 1.1597 216.2 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23150127 34.42850400 1.1612 216.7 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23154212 34.42853050 1.1628 218.8 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23230835 34.42708934 1.1779 220.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23119252 34.42829143 1.1526 219.5 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23123425 34.42832423 1.1545 220.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23128304 34.42836990 1.1556 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23137823 34.42843537 1.1580 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23145058 34.42847278 1.1597 216.2 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23150127 34.42850400 1.1612 216.7 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23154212 34.42853050 1.1628 218.8 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23230835 34.42708934 1.1779 220.0 0.0 -0.0
+
+#AASC Catering -- competition to above!
+OBJECT_STATIC AASC-catering.xml 135.23004768 34.42819867 1.1241 89.8 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23010599 34.42779618 1.1070 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23015883 34.42783009 1.1097 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23021303 34.42786765 1.1123 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23026713 34.42790867 1.1153 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23032129 34.42793964 1.1178 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23036993 34.42797416 1.1213 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23041915 34.42800937 1.1248 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23046612 34.42804151 1.1275 0.0 0.0 -0.0
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.23050657 34.42807086 1.1292 0.0 0.0 -0.0
+OBJECT_STATIC Models/Agriculture/Catering_Loader_Truck_VolvoFM-stowed.ac 135.23054683 34.42809863 1.1307 0.0 0.0 -0.0
 
 
 OBJECT_SHARED Models/Boundaries/CrowdBarrier.xml 135.22534151 34.42566423 0.9666 39.0 -0.4 --0.8
@@ -192,14 +205,23 @@ OBJECT_SHARED Models/Airport/cloader.xml 135.23264397 34.42717708 1.1907 0.0 0.0
 OBJECT_SHARED Models/Airport/cloader.xml 135.23259508 34.42712590 1.1890 0.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/cloader.xml 135.23367483 34.42615956 1.1936 0.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/cloader.xml 135.23362946 34.42612497 1.1919 0.0 0.0 -0.0
-OBJECT_SHARED Models/Airport/fourgon.xml 135.23361837 34.42583860 1.1852 132.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/generic-trailer-GPU.xml 135.23383253 34.42584269 1.1881 0.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/generic-trailer-GPU.xml 135.23331181 34.42636510 1.1924 0.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/generic-trailer-GPU.xml 135.23278500 34.42686144 1.1907 0.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/generic-trailer-GPU.xml 135.23228042 34.42735578 1.1832 0.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/generic-trailer-GPU.xml 135.23195316 34.42806738 1.1764 0.0 0.0 -0.0
 OBJECT_SHARED Models/Transport/bus_bi_turn-ba.ac 135.23367056 34.42566902 1.1830 116.0 0.0 -0.0
-
+OBJECT_STATIC Catering_Loader_Truck_VolvoFM-stowed.ac 135.24707881 34.43080775 1.3410 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/chariot.xml 135.23277320 34.42505211 1.1493 308.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/elevator.xml 135.23195641 34.42804753 1.1774 216.00.0 -0.0
+OBJECT_SHARED Models/Airport/elevator.xml 135.23247435 34.42717291 1.1872 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/elevator.xml 135.23251937 34.42717664 1.1881 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/elevator.xml 135.23286000 34.42686260 1.1914 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/elevator.xml 135.23338574 34.42636404 1.1934 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/elevator.xml 135.23393398 34.42587076 1.1897 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/hatchback_red_follow_me.ac 135.23416897 34.425793811.1903 306.4 0.0 -0.0
+ 
+ 
 #Shared Models -- Apron Equipment
 
 #Shared Models -- Static Aircraft
