@@ -8,7 +8,7 @@ OBJECT poly
 name "KIC_hangar"
 loc -42.2414169 0.1144253 14.5415258
 crease 35.0
-texture "KIC-hangar_lightmap.png"
+texture "KIC-hangar.png"
 texrep 1 1
 numvert 122
 1.2658178 -0.0242741 0.9513503
