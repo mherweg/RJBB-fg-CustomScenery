@@ -7,7 +7,6 @@ kids 1
 OBJECT poly
 name "Hangar"
 loc -9.5097733 15.8377190 -57.7428055
-texture "RJBB-hangar-cargo-apron.png"
 crease 35.0
 numvert 91
 17.3300667 -11.7471485 74.5568466
