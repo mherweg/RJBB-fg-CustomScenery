@@ -8,6 +8,7 @@ OBJECT poly
 name "Hangar"
 loc -9.5097733 15.8377190 -57.7428055
 crease 35.0
+texture "RJBB-hangar-cargo-apron.png"
 numvert 91
 17.3300667 -11.7471485 74.5568466
 17.3270950 -11.7471485 74.8800430
