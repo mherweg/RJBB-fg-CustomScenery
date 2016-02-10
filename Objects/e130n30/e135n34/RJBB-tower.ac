@@ -298,7 +298,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.top"
-texture "kachel.png"
+texture "RJBB-tower_1.png"
 texrep 1 1
 numvert 16
 -7.1259265 71.5703430 7.1259265
@@ -450,7 +450,7 @@ kids 0
 OBJECT poly
 name "floor.001"
 loc -54.5337715 1.5481949 0.0000000
-texture "treppenhaus.png"
+texture "RJBB-tower_2.png"
 texrep 1 1
 numvert 416
 25.4809742 1.0162902 13.7285910
@@ -19352,7 +19352,7 @@ kids 0
 OBJECT poly
 name "radom-sockel"
 loc 0.0000000 26.3986759 0.0000000
-texture "kachel.png"
+texture "RJBB-tower_1.png"
 texrep 1 1
 numvert 24
 0.0000000 54.8837891 -2.0000000
@@ -22312,7 +22312,7 @@ kids 0
 OBJECT poly
 name "top"
 loc 0.0000000 26.3986759 0.0000000
-texture "kachel.png"
+texture "RJBB-tower_1.png"
 texrep 1 1
 numvert 48
 3.8012242 36.4609680 6.0920753
@@ -22736,7 +22736,7 @@ kids 0
 OBJECT poly
 name "top-windows"
 loc 0.0000000 26.3986759 0.0000000
-texture "kachel3.png"
+texture "RJBB-tower_3.png"
 texrep 1 1
 numvert 16
 -3.1899273 51.7985268 -4.5439463
@@ -22816,7 +22816,7 @@ kids 0
 OBJECT poly
 name "treppenhaus"
 loc -55.2416534 1.5481949 0.0000000
-texture "treppenhaus.png"
+texture "RJBB-tower_2.png"
 texrep 1 1
 numvert 68
 20.8427963 -2.9100728 -23.6278553
@@ -23339,7 +23339,7 @@ kids 0
 OBJECT poly
 name "treppenhaus.001"
 loc -113.2652969 1.5482057 7.7492990
-texture "treppenhaus.png"
+texture "RJBB-tower_2.png"
 texrep 1 1
 numvert 68
 20.8427963 -2.9100728 -23.6278553

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <flightplan>
+    <wpt>
+      <name type="string">#0</name>
+      <lat type="double">34.4380126</lat>
+      <lon type="double">135.2508287</lon>
+      <crossat type="double">4.426989088</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="1">
+      <name type="string">#1</name>
+      <lat type="double">34.43844657</lat>
+      <lon type="double">135.2503552</lon>
+      <crossat type="double">4.424676457</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="2">
+      <name type="string">#2</name>
+      <lat type="double">34.43930866</lat>
+      <lon type="double">135.2516322</lon>
+      <crossat type="double">4.323524074</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="3">
+      <name type="string">#3</name>
+      <lat type="double">34.43931932</lat>
+      <lon type="double">135.2518903</lon>
+      <crossat type="double">4.308640112</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="4">
+      <name type="string">#4</name>
+      <lat type="double">34.43906657</lat>
+      <lon type="double">135.252161</lon>
+      <crossat type="double">4.308091154</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="5">
+      <name type="string">#5</name>
+      <lat type="double">34.43887201</lat>
+      <lon type="double">135.2520707</lon>
+      <crossat type="double">4.324212454</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="6">
+      <name type="string">#6</name>
+      <lat type="double">34.43742714</lat>
+      <lon type="double">135.2499116</lon>
+      <crossat type="double">4.48524594</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="7">
+      <name type="string">#7</name>
+      <lat type="double">34.4311679</lat>
+      <lon type="double">135.2405505</lon>
+      <crossat type="double">4.466990556</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="8">
+      <name type="string">#8</name>
+      <lat type="double">34.43045755</lat>
+      <lon type="double">135.2394902</lon>
+      <crossat type="double">4.411862166</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="9">
+      <name type="string">#9</name>
+      <lat type="double">34.43040571</lat>
+      <lon type="double">135.2392741</lon>
+      <crossat type="double">4.399601097</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="10">
+      <name type="string">#10</name>
+      <lat type="double">34.43078895</lat>
+      <lon type="double">135.2389149</lon>
+      <crossat type="double">4.386977871</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="11">
+      <name type="string">#11</name>
+      <lat type="double">34.43057313</lat>
+      <lon type="double">135.2385922</lon>
+      <crossat type="double">4.365773167</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="12">
+      <name type="string">#12</name>
+      <lat type="double">34.42848763</lat>
+      <lon type="double">135.235528</lon>
+      <crossat type="double">4.143999509</crossat>
+      <on-ground type="bool">true</on-ground>
+      <ktas type="double">100</ktas>
+    </wpt>
+    <wpt n="13">
+      <name type="string">END</name>
+    </wpt>
+  </flightplan>
+</PropertyList>
