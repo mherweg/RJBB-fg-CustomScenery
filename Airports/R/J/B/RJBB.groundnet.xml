@@ -62,15 +62,15 @@
         <Parking index="57" type="gate" name="Rwy_Hold_06R" lat="N34 25.103077" lon="E135 13.703858" heading="141.51"  radius="44" pushBackRoute="172" airlineCodes="" />
         <Parking index="58" type="gate" name="Rwy_Hold_06L" lat="N34 25.658074" lon="E135 12.440212" heading="319.28"  radius="44" pushBackRoute="253" airlineCodes="" />
         <Parking index="59" type="gate" name="Rwy_Hold_24R" lat="N34 27.008485" lon="E135 14.451715" heading="322.85"  radius="44" pushBackRoute="238" airlineCodes="" />
-        <Parking index="60" type="gate" name="T1-41" lat="N34 25.949925" lon="E135 14.428045" heading="143.25"  radius="44" pushBackRoute="211" airlineCodes="" />
-        <Parking index="61" type="gate" name="T1-40" lat="N34 25.922926" lon="E135 14.391088" heading="143.25"  radius="44" pushBackRoute="211" airlineCodes="" />
-        <Parking index="62" type="gate" name="T1-39" lat="N34 25.898928" lon="E135 14.352253" heading="143.25"  radius="44" pushBackRoute="211" airlineCodes="" />
-        <Parking index="63" type="gate" name="T1-38" lat="N34 25.872993" lon="E135 14.313301" heading="143.25"  radius="44" pushBackRoute="210" airlineCodes="" />
-        <Parking index="64" type="gate" name="T1-37" lat="N34 25.847253" lon="E135 14.278573" heading="143.25"  radius="44" pushBackRoute="210" airlineCodes="" />
-        <Parking index="65" type="gate" name="T1-36" lat="N34 25.821705" lon="E135 14.240091" heading="143.25"  radius="44" pushBackRoute="209" airlineCodes="" />
-        <Parking index="66" type="gate" name="T1-35" lat="N34 25.792764" lon="E135 14.208920" heading="114.64"  radius="44" pushBackRoute="208" airlineCodes="" />
-        <Parking index="67" type="gate" name="T1-34" lat="N34 25.749262" lon="E135 14.238248" heading="51.68"  radius="44" pushBackRoute="179" airlineCodes="" />
-        <Parking index="68" type="gate" name="T1-33" lat="N34 25.720628" lon="E135 14.265774" heading="19.12"  radius="44" pushBackRoute="180" airlineCodes="" />
+        <Parking index="60" type="gate" name="T1-41" lat="N34 25.939056" lon="E135 14.437150" heading="143.25"  radius="44" pushBackRoute="211" airlineCodes="" />
+        <Parking index="61" type="gate" name="T1-40" lat="N34 25.914330" lon="E135 14.398156" heading="143.25"  radius="44" pushBackRoute="211" airlineCodes="" />
+        <Parking index="62" type="gate" name="T1-39" lat="N34 25.890070" lon="E135 14.359957" heading="143.25"  radius="44" pushBackRoute="211" airlineCodes="" />
+        <Parking index="63" type="gate" name="T1-38" lat="N34 25.864329" lon="E135 14.321005" heading="143.25"  radius="44" pushBackRoute="210" airlineCodes="" />
+        <Parking index="64" type="gate" name="T1-37" lat="N34 25.842781" lon="E135 14.281603" heading="143.25"  radius="44" pushBackRoute="210" airlineCodes="" />
+        <Parking index="65" type="gate" name="T1-36" lat="N34 25.817760" lon="E135 14.242323" heading="143.25"  radius="44" pushBackRoute="209" airlineCodes="" />
+        <Parking index="66" type="gate" name="T1-35" lat="N34 25.792239" lon="E135 14.210405" heading="114.64"  radius="44" pushBackRoute="208" airlineCodes="" />
+        <Parking index="67" type="gate" name="T1-34" lat="N34 25.754522" lon="E135 14.246539" heading="51.68"  radius="44" pushBackRoute="179" airlineCodes="" />
+        <Parking index="68" type="gate" name="T1-33" lat="N34 25.727861" lon="E135 14.271035" heading="19.12"  radius="44" pushBackRoute="180" airlineCodes="" />
         <Parking index="69" type="gate" name="T1-32" lat="N34 25.754845" lon="E135 14.299909" heading="320.5"  radius="44" pushBackRoute="181" airlineCodes="" />
         <Parking index="70" type="gate" name="T1-31" lat="N34 25.781434" lon="E135 14.339004" heading="320.5"  radius="44" pushBackRoute="181" airlineCodes="" />
         <Parking index="71" type="gate" name="T1-30" lat="N34 25.807835" lon="E135 14.376956" heading="320.5"  radius="44" pushBackRoute="181" airlineCodes="" />
@@ -320,15 +320,15 @@
         <node index="313" lat="N34 25.124308" lon="E135 13.686976" isOnRunway="0" holdPointType="none"  />
         <node index="314" lat="N34 25.637516" lon="E135 12.457907" isOnRunway="0" holdPointType="none"  />
         <node index="315" lat="N34 26.986865" lon="E135 14.468096" isOnRunway="0" holdPointType="none"  />
-        <node index="316" lat="N34 25.971659" lon="E135 14.411816" isOnRunway="0" holdPointType="none"  />
-        <node index="317" lat="N34 25.944660" lon="E135 14.374858" isOnRunway="0" holdPointType="none"  />
-        <node index="318" lat="N34 25.920661" lon="E135 14.336024" isOnRunway="0" holdPointType="none"  />
-        <node index="319" lat="N34 25.894727" lon="E135 14.297072" isOnRunway="0" holdPointType="none"  />
-        <node index="320" lat="N34 25.868986" lon="E135 14.262344" isOnRunway="0" holdPointType="none"  />
-        <node index="321" lat="N34 25.843439" lon="E135 14.223862" isOnRunway="0" holdPointType="none"  />
-        <node index="322" lat="N34 25.804072" lon="E135 14.184265" isOnRunway="0" holdPointType="none"  />
-        <node index="323" lat="N34 25.732443" lon="E135 14.216967" isOnRunway="0" holdPointType="none"  />
-        <node index="324" lat="N34 25.694999" lon="E135 14.256889" isOnRunway="0" holdPointType="none"  />
+        <node index="316" lat="N34 25.960790" lon="E135 14.420920" isOnRunway="0" holdPointType="none"  />
+        <node index="317" lat="N34 25.936064" lon="E135 14.381926" isOnRunway="0" holdPointType="none"  />
+        <node index="318" lat="N34 25.911804" lon="E135 14.343727" isOnRunway="0" holdPointType="none"  />
+        <node index="319" lat="N34 25.886062" lon="E135 14.304775" isOnRunway="0" holdPointType="none"  />
+        <node index="320" lat="N34 25.864515" lon="E135 14.265373" isOnRunway="0" holdPointType="none"  />
+        <node index="321" lat="N34 25.839493" lon="E135 14.226094" isOnRunway="0" holdPointType="none"  />
+        <node index="322" lat="N34 25.803547" lon="E135 14.185750" isOnRunway="0" holdPointType="none"  />
+        <node index="323" lat="N34 25.737704" lon="E135 14.225258" isOnRunway="0" holdPointType="none"  />
+        <node index="324" lat="N34 25.702232" lon="E135 14.262150" isOnRunway="0" holdPointType="none"  />
         <node index="325" lat="N34 25.733915" lon="E135 14.317163" isOnRunway="0" holdPointType="none"  />
         <node index="326" lat="N34 25.760504" lon="E135 14.356257" isOnRunway="0" holdPointType="none"  />
         <node index="327" lat="N34 25.786905" lon="E135 14.394209" isOnRunway="0" holdPointType="none"  />
